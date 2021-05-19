@@ -9,7 +9,7 @@ export default function FormDemo() {
             document.getElementById("demo-form").reset();
         }
 
-        emailjs.sendForm('service_7x1pgdp', 'template_demo_90aax3a', e.target, 'user_pQhBRljhOSMXvTGbqGKyu')
+        emailjs.sendForm('service_toqfoo9', 'form_demo', e.target, 'user_WtCjGRDorUo3I1OmblHuB')
         .then(
             function (response) {
                 //console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
@@ -17,7 +17,7 @@ export default function FormDemo() {
                 myFunction();
             },
             function (error) {
-                //console.log("FAILED", error);
+                console.info("FAILED", error);
                 alert("FAILED!" + error);
             }
         );

@@ -9,7 +9,7 @@ export default function FormContact() {
             document.getElementById("contact-form").reset();
         }
 
-        emailjs.sendForm('service_7x1pgdp', 'template_contact_4ku8mij', e.target, 'user_pQhBRljhOSMXvTGbqGKyu')
+        emailjs.sendForm('service_toqfoo9', 'form_contact', e.target, 'user_WtCjGRDorUo3I1OmblHuB')
         .then(
             function (response) {
                 //console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
