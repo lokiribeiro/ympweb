@@ -25,6 +25,7 @@ class Footer extends Component {
                                 <a href="/privacypolicy" className="text-blue">Privacy Policy | </a>
                                 <a href="/cookiepolicy" className="text-blue">Cookie Policy | </a>
                                 <a href="/termsandconditions" className="text-blue">Terms and Conditions</a>
+                                    <p className="mb-0"><small>Technical Yacht Solutions (TYS) Ltd Kemp House, 160 City Road, London EC1V 2NX, United Kingdom</small></p>
                                     <p><small>Copyright © {year} YMP. All Rights Reserved</small></p>
                                 </div>
                         </Col>
