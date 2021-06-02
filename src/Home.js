@@ -14,7 +14,7 @@ class Home extends Component {
                                 The most user-friendly, effective, and affordable maintenance program. Get a demo today and start saving time and money for €650 a year.
                             </h1>
                             <p><strong>REQUEST A DEMO TODAY!</strong></p>
-                            <a href="#demo" className="btndemo border rounded px-5 py-2 d-inline-block">GET A DEMO</a>
+                            <a href="#getademo" className="btndemo border rounded px-5 py-2 d-inline-block">GET A DEMO</a>
                         </Col>
                     </Row>
                 </Container>
