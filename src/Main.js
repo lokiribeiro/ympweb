@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './App.scss';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import logo from './images/Logo/YMP small logo no bg.png';
 import user from './images/Logo/user-solid.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,6 +11,7 @@ import HomePage from "./HomePage";
 import PrivacyPolicy from "./PrivacyPolicy";
 import CookiePolicy from "./CookiePolicy";
 import TermsAndConditions from "./TermsAndConditions";
+import NotFound from "./404";
 
 class Main extends Component {
 
@@ -45,10 +46,13 @@ class Main extends Component {
                     </Navbar>
                 </div>
                 <div className="App-content">
+                    <Switch>
                         <Route exact path="/" component={HomePage} />
                         <Route path="/privacypolicy" component={PrivacyPolicy} />
                         <Route path="/cookiepolicy" component={CookiePolicy} />
                         <Route path="/termsandconditions" component={TermsAndConditions} />
+                        <Route component={NotFound} />
+                    </Switch>
                 </div>
             </div>
             </Router>

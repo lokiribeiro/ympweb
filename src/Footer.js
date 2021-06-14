@@ -3,9 +3,6 @@ import {
     Container, Row, Col
 } from 'react-bootstrap';
 import logo from './images/Logo/logo_big.png';
-import {
-    Switch
-} from "react-router-dom";
 
 class Footer extends Component {
 
@@ -15,7 +12,6 @@ class Footer extends Component {
         let year = new Date().getFullYear();
 
         return (
-            <Switch>
             <div className="component_content footer">
                 <Container>
                     <Row>
@@ -32,7 +28,6 @@ class Footer extends Component {
                     </Row>
                 </Container>
             </div>
-            </Switch>
         );
     }
 }
