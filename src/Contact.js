@@ -45,7 +45,7 @@ class Contact extends Component {
                                     </p>
                                     <p className="mb-0">
                                         <i aria-hidden="true" className="fa fa-phone mr-1"></i>
-                                        <a href="tel:+45 257 12 87 35">+45 257 12 87 35</a>
+                                        <a href="tel:+45 27 12 87 35">+45 27 12 87 35</a>
                                     </p>
                                     <p className="mb-0">
                                         <i aria-hidden="true" className="fa fa-skype mr-2"></i>
