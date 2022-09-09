@@ -3,9 +3,10 @@ import {
     Container, Row, Col
 } from 'react-bootstrap';
 import FormContact from "./FormContact";
-import finn from './images/Photos/finn.jpg';
-import jhonny from './images/Photos/johnny.jpg';
-import kris from './images/Photos/kristoffer.png';
+
+/** Modifications
+    contacts-1: Change contacts details
+*/
 
 class Contact extends Component {
     render() {
@@ -13,35 +14,16 @@ class Contact extends Component {
             <div className="component_content contact">
                 <Container>
                     <Row>
-                        <Col xs={12} xl={6}>
-                            <div className="media mb-5">
-                                <img src={kris} alt="kristoffer" width="150" className="img-fluid mr-4"/>
-                                <div className="media-body">
-                                    <h4 className="text-blue mb-0">Kristoffer Jensen</h4>
-                                    <h5 className="text-blue">Technical Manager</h5>
+                    {/* // modification start - 09.09.2022 - contacts-1 */}
+                        <Col xs={12} xl={6} className="m-auto">
+                           
+                            <div className="media">
+                                <div className="media-body ">
+                                    <h4 className="text-blue mb-0">TYS Team</h4>
+                                    
                                     <p className="mb-0">
                                         <i aria-hidden="true" className="fa fa-envelope-o mr-1"></i>
-                                        <a href="mailto: kris@ymp.ltd">kris@ymp.ltd</a>
-                                    </p>
-                                    <p className="mb-0">
-                                        <i aria-hidden="true" className="fa fa-phone mr-1"></i>
-                                        <a href="tel:+45 81 93 51 92">+45 81 93 51 92</a>
-                                    </p>
-                                    <p className="mb-0">
-                                        <i aria-hidden="true" className="fa fa-skype mr-2"></i>
-                                        Kristoffer Jensen
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div className="media mb-5">
-                                <img src={jhonny} alt="johnny" width="150" className="img-fluid mr-4"/>
-                                <div className="media-body">
-                                    <h4 className="text-blue mb-0">Johny Holgaard</h4>
-                                    <h5 className="text-blue">Marketing Manager</h5>
-                                    <p className="mb-0">
-                                        <i aria-hidden="true" className="fa fa-envelope-o mr-1"></i>
-                                        <a href="mailto: johnny@tys.com.mt">johnny@tys.com.mt</a>
+                                        <a href="mailto: admin@tys.com.mt">admin@tys.com.mt</a>
                                     </p>
                                     <p className="mb-0">
                                         <i aria-hidden="true" className="fa fa-phone mr-1"></i>
@@ -54,6 +36,8 @@ class Contact extends Component {
                                 </div>
                             </div>
                         </Col>
+
+                        {/* // modification end - 09.09.2022 - contacts-1 */}
                         <Col xs={12} xl={6}>
                             <FormContact/>
                         </Col>
