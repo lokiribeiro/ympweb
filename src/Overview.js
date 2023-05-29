@@ -26,7 +26,7 @@ class Overview extends Component {
                     <td>
                       <div className="text-center icons">
                         <div className="icons-image">
-                          <img src={logbook} alt="" width="38" />
+                          <img src={logbook} alt="ymp-logbook" width="38" />
                         </div>
                         <p className="icons-text">LOGBOOK</p>
                       </div>
@@ -34,7 +34,7 @@ class Overview extends Component {
                     <td>
                       <div className="text-center icons">
                         <div className="icons-image">
-                          <img src={equipment} alt="" width="38" />
+                          <img src={equipment} alt="ymp-equipment" width="38" />
                         </div>
                         <p className="icons-text">EQUIPMENT</p>
                       </div>
@@ -42,7 +42,7 @@ class Overview extends Component {
                     <td>
                       <div className="text-center icons">
                         <div className="icons-image">
-                          <img src={jobs} alt="" width="38" />
+                          <img src={jobs} alt="ymp-jobs" width="38" />
                         </div>
                         <p className="icons-text">JOBS</p>
                       </div>
@@ -52,7 +52,7 @@ class Overview extends Component {
                     <td>
                       <div className="text-center icons">
                         <div className="icons-image">
-                          <img src={inventory} alt="" width="38" />
+                          <img src={inventory} alt="ymp-inventory" width="38" />
                         </div>
                         <p className="icons-text">INVENTORY</p>
                       </div>
@@ -60,7 +60,7 @@ class Overview extends Component {
                     <td>
                       <div className="text-center icons">
                         <div className="icons-image">
-                          <img src={reports} alt="" width="38" />
+                          <img src={reports} alt="ymp-reports" width="38" />
                         </div>
                         <p className="icons-text">REPORTS</p>
                       </div>
@@ -68,7 +68,7 @@ class Overview extends Component {
                     <td>
                       <div className="text-center icons">
                         <div className="icons-image">
-                          <img src={employees} alt="" width="38" />
+                          <img src={employees} alt="ymp-employees" width="38" />
                         </div>
                         <p className="icons-text">EMPLOYEES</p>
                       </div>
@@ -78,7 +78,7 @@ class Overview extends Component {
                     <td>
                       <div className="text-center icons">
                         <div className="icons-image">
-                          <img src={guests} alt="" width="38" />
+                          <img src={guests} alt="ymp-guests" width="38" />
                         </div>
                         <p className="icons-text">GUESTS</p>
                       </div>
@@ -86,7 +86,7 @@ class Overview extends Component {
                     <td>
                       <div className="text-center icons">
                         <div className="icons-image">
-                          <img src={suppliers} alt="" width="38" />
+                          <img src={suppliers} alt="ymp-suppliers" width="38" />
                         </div>
                         <p className="icons-text">SUPPLIERS</p>
                       </div>
@@ -94,7 +94,11 @@ class Overview extends Component {
                     <td>
                       <div className="text-center icons">
                         <div className="icons-image">
-                          <img src={hours_admin} alt="" width="38" />
+                          <img
+                            src={hours_admin}
+                            alt="ymp-hours-admin"
+                            width="38"
+                          />
                         </div>
                         <p className="icons-text">HOURS ADMIN</p>
                       </div>
@@ -104,7 +108,7 @@ class Overview extends Component {
                     <td>
                       <div className="text-center icons">
                         <div className="icons-image">
-                          <img src={ism} alt="" width="38" />
+                          <img src={ism} alt="ymp-ism" width="38" />
                         </div>
                         <p className="icons-text">ISM</p>
                       </div>
@@ -112,7 +116,11 @@ class Overview extends Component {
                     <td>
                       <div className="text-center icons">
                         <div className="icons-image">
-                          <img src={vessel_documents} alt="" width="38" />
+                          <img
+                            src={vessel_documents}
+                            alt="ymp-vessel-documents"
+                            width="38"
+                          />
                         </div>
                         <p className="icons-text">
                           VESSEL<br></br>DOCUMENTS
@@ -122,7 +130,7 @@ class Overview extends Component {
                     <td>
                       <div className="text-center icons">
                         <div className="icons-image">
-                          <img src={watchkeep} alt="" width="38" />
+                          <img src={watchkeep} alt="ymp-watchkeep" width="38" />
                         </div>
                         <p className="icons-text">WATCHKEEP</p>
                       </div>
